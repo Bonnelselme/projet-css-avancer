@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto Flex", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+main{
+    
+    
+    
+}
+    
+
+ #content{
+    height: 2000px; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    
+    
+}  
+
+select{
+    background-color: transparent;
+    
+}
+select{
+    margin-bottom: 20px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 1px;
+    border: 0;
+    text-decoration: underline solid 1px;
+    
+}
+
+.pour{
+    background-color: #3d83df;
+    color: white;
+}
+
+header nav{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffff;
+    padding: 20px 20px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+   
+
+
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: #00b39b;
+    
+    
+    
+}
+.nav :hover,
+.nav .active {
+    color: #1b2734;
+
+}
+
+
+.iconcenter{
+    
+    
+    justify-content: center;
+    align-items: center;
+    color: #747474;
+    letter-spacing: 1px;
+    
+}
+.iconcenter{
+    padding: 150px;
+}
+.text{
+    display: flex;
+    letter-spacing: 2px;
+    margin: 0 10px;
+
+}
+.logoup{
+    text-align: center;
+}
+
+.h1{
+    color: #00b39b;
+    font-size:30px;
+    font-family: Work Sans, Arial, sans-serif;
+    padding: 2%;
+    box-sizing: border-box;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2%;
+   color: white;
+   letter-spacing: 2px;
+   height: 390px;
+   
+  
+}
+
+
+    
+
+#patient{
+    background-color: #00ccb1;
+    border-radius: 5%;
+    height: 345px;
+    width: 320px;
+    padding: 30px;
+    font-size: 20px;
+    margin-bottom: 30%;
+    letter-spacing: 2px;
+   
+
+    
+}
+
+
+#medecins{
+    background-color: #3d83df;
+    border-radius: 5%;
+    height: 345px;
+    width: 320px;
+    padding: 30px;
+    font-size: 20px;
+    
+    
+}
+#clinique{
+    background-color: #1b2734;
+    border-radius: 5%;
+    height: 345px;
+    width: 320px;
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}
+
+
+#patient > *, #medecins > *, #clinique > * {
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+.section2{
+
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    color: #00ccb1;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px 140px;
+    font-size: 25px;
+}
+.center{
+    margin: 10px -12px;
+}
+
+h2{
+    font-weight: 100;
+    color: #00ccb1;
+}
+.gauche{
+    text-align: left;
+    font-weight: 200;
+    
+}
+
+
+    
+.left{
+    letter-spacing: 150px;
+}
+
+
+.section3{
+    background-color:#d6e6e3;
+    height:550px;
+    width: 100%;
+    display: flex;
+    
+    
+    
+    
+    
+}
+
+.grande{
+
+    
+}
+.la{
+    color:#00b39b;
+    font-size: 1.825rem;
+    font-weight: 250;
+    
+    
+    
+}
+.logo-img{
+        width: 400px;
+        
+}
+
+
+
+
+
+
+.nous{
+    color: #747474;
+    font-size: 13px;
+}
+.sectionleft p{
+    color: #747474;
+    
+    padding: 10px;
+}
+.sectionright p{
+    color: #747474;
+    padding: 10px;
+}
+.sectionleft h3{
+    color: #00ccb1;
+}
+.sectionright h3{
+    color: #00ccb1;
+}
+
+.leaderp{
+
+}
+
+.image{
+    margin: 31px -20px;
+}
+.regroup{
+    
+}
+#element{
+    display: flex;
+   align-items: center;
+  justify-content: end;
+  gap: 5%;
+  margin: 70px;
+  
+}
+.leaderp{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 15px -3px;
+}
+.patient{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    border-radius: 5px;
+}
+.sectionleft{
+   text-align: center;
+    margin: 250px;
+    
+   
+}
+.sectionright{
+    margin:-250px;
+    text-align: center;
+    
+    
+    
+}
+.rendez{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    border-radius: 5px;
+    margin: -8px -4px;
+    
+}
+.medecin{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 23px 0px;
+}
+.centre{
+    margin: 30px 260px;
+   
+}
+#element img{
+    padding: 20px;
+    
+}
+
+#element{
+    margin: 0 -320px;
+}
+
+
+
+
+
+body{
+    font-family: Work Sans, Arial, sans-serif;
+}
+
+article{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    padding: 20px;
+}
+#lineone{
+    
+}
+
+.img1{
+    
+    width: 270px;
+    height: 250px;
+    
+    
+    
+   
+}
+article img{
+    border-radius: 5px 5px 0 0;
+}
+
+.rectangle{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 60px;
+    margin: -17px 0;
+    border: solid 0,5px;
+    
+    
+}
+ 
+article a{
+    text-decoration: none;
+}
+.see {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    background-color: rgb(61, 131, 223);
+    width: 100px  ;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    
+    
+}
+.see:hover{
+    background-color: rgb(29, 115, 227);
+}
+
+.war{
+    margin: 10px;
+    color: rgb(116, 116, 116);
+    
+}
+.Munich{
+    margin: 0 -20px;
+}
+.bologna{
+    margin: 0 -20px;
+}
+.MexicoCity{
+    margin: 0 -20px;
+}
+
+aside{
+    display: flex;
+    gap: 10px;
+    margin: 0 410px;
+    
+}
+aside a{
+    
+    text-decoration: none;
+}
+
+
+#milieu{
+    text-align: center;
+    margin: 70px;
+    padding: 20px;
+}
+
+#milieu h2{
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+#milieu p{
+    letter-spacing: 2px;
+    font-weight: 50;
+    margin: 20px ;
+}
+
+.dern{
+    text-align: center;
+    margin: 70px;
+    padding: 70px;
+}
+.dern p{
+    font-size: 2.875em;
+    font-weight: 150;
+    margin: 20px;
+}
+
+.dern a{
+    text-decoration: none;
+    background-color: #3d83df;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.dern a:hover{
+    background-color: rgb(29, 115, 227);
+
+}
+footer{
+    text-align: center;
+    margin: 70PX;
+    font-weight: 100;
+}
+.cont{
+    display: flex;
+    gap: 2px;
+    margin: 0px 200px;
+    
+}
+.cont a{
+    text-decoration: none;
+    color: #0d50a7;
+}
+.copy a{
+    text-decoration: none;
+}
+footer p{
+    color: #747474;
+}
